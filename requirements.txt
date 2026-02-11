@@ -1,19 +1,8 @@
-# Streamlit & visualisasi
 streamlit>=1.24
+pandas==2.1.4
+numpy==1.26.4
 matplotlib==3.7.2
 seaborn>=0.12
 plotly>=5.15
-
-# Data processing
-pandas==2.1.4
-numpy==1.26.4
-
-# Build tools supaya pip bisa pasang paket tanpa error
 setuptools>=68.0
 wheel>=1.0
-
-# Logging / fancy printing
-rich>=14.3.2
-markdown-it-py>=4.0.0
-mdurl~=0.1
-pygments>=2.13.0,<3.0.0
