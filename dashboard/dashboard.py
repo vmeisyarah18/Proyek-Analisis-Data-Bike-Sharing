@@ -17,7 +17,7 @@ st.write(
 )
 st.divider()
 # LOAD DATA
-df = pd.read_csv("day.csv")
+df = pd.read_csv("data/day.csv")
 df["dteday"] = pd.to_datetime(df["dteday"])
 df.rename(columns={'cnt': 'total_rentals'}, inplace=True)
 
