@@ -27,9 +27,9 @@ df['season_name'] = df['season'].map(season_labels)
 
 weather_labels = {
     1: 'Clear',
-    2: 'Mist / Cloudy',
-    3: 'Light Rain / Snow',
-    4: 'Heavy Rain / Snow'
+    2: 'Mist',
+    3: 'Light Rain',
+    4: 'Heavy Rain'
 }
 df['weather_name'] = df['weathersit'].map(weather_labels)
 
